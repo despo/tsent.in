@@ -9,6 +9,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'haml-rails'
 gem 'haml'
+gem 'bourbon'
+gem 'foundation-rails'
 
 gem 'rspec-rails'
 
