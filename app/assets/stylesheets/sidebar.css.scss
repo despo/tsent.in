@@ -1,0 +1,46 @@
+#sidebar {
+  position: absolute;
+  top: 0;
+  padding: 3em 1.35em 1em 1.15em;
+  background: #364050 image-url('bg1.png');
+  box-shadow: inset -0.1em 0em 0.35em 0em rgba(0,0,0,0.15);
+  min-height: 1070px;
+  color: #929DA4;
+}
+
+#logo {
+  text-align: center;
+  img {
+    height: 150px;
+  }
+}
+
+#tagline {
+ position: relative;
+ background-color: #272E39;
+ background-color: rgba(0,0,0,0.15);
+ border-radius: 0.4em;
+ padding: 1.25em;
+ box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0.25em 0 rgba(0,0,0,0.25);
+ color: #d4dde0;
+}
+
+#copyright:before {
+ content: '';
+ border-top: solid 1px;
+ border-bottom: solid 1px;
+ border-color: #171E29;
+ border-color: rgba(0,0,0,0.25);
+ box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.075), 0px 1px 0px 0px rgba(255,255,255,0.075);
+ display: block;
+}
+
+#copyright {
+ margin: 2em 0 0 0;
+ text-align: center;
+}
+
+#copyright p {
+ font-size: 0.8em;
+ line-height: 2em;
+}

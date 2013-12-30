@@ -10,4 +10,8 @@
     = javascript_include_tag "vendor/modernizr"
     = csrf_meta_tags
   %body
-    =yield
+    .row
+      .large-2.columns#sidebar
+        = render partial: 'sidebar'
+      .large-10.columns
+        =yield
